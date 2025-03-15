@@ -1,100 +1,67 @@
-# Subscription-Tracker
-Subscription Tracker
+# 🚀 **Subscription Tracker**
 
-Description
+![Subscription Tracker](https://via.placeholder.com/800x400.png?text=Subscription+Tracker+App)
 
-Subscription Tracker is a backend-only application designed to help users manage their subscriptions efficiently. The system allows users to create, view, and delete subscriptions, ensuring they stay on top of their recurring payments.
+## 📌 **Project Overview**
+Subscription Tracker is a **backend-only** Node.js project that helps users efficiently manage their subscriptions. It includes features like secure authentication, bot protection, and automated reminders.
 
-Features
+## 🔑 **Features**
+✅ Create, update, and delete subscriptions 📅  
+✅ Secure authentication using JWT & Archlet bot protection 🤖  
+✅ Auto-reminders for upcoming subscriptions ⏰  
+✅ RESTful API with Express.js 🛠️  
+✅ MongoDB database integration 📂  
 
-User Authentication: Secure authentication using JWT bearer tokens.
+## 🚧 **Tech Stack**
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Mongoose ODM)
+- **Authentication:** JWT (JSON Web Token)
+- **Bot Protection:** Archlet
+- **Task Queue:** Upstash Workflow Client
 
-Create Subscription: Add new subscriptions with details like price, currency, frequency, and payment method.
+## ⚠️ **Sensitive Information** ⚠️
+**🔴 IMPORTANT:** This project contains sensitive data like database credentials. Ensure you:
+- **Do NOT push `.env` files** ❌  
+- **Use `.gitignore` to exclude sensitive files**  
+- **Deploy securely using environment variables** 🔐  
 
-Manage Subscriptions: View and delete subscriptions.
+## 📸 **Screenshots**
+### API Workflow Diagram 📊
+![API Workflow](https://via.placeholder.com/600x300.png?text=API+Workflow)
 
-Reminders: Automated reminders (if configured) for upcoming subscription payments.
+### Subscription API Request Example 📝
+![Postman API](https://via.placeholder.com/600x300.png?text=Postman+Request)
 
-Tech Stack
-
-Backend: Node.js, Express.js
-
-Database: MongoDB (Mongoose ODM)
-
-Authentication: JWT
-
-Installation
-
-Clone the repository:
-
+## 🛠️ **Setup & Installation**
+```sh
+# Clone the repository
 git clone https://github.com/GaneshramWebDev/Subscription-Tracker.git
 
-Navigate to the project directory:
-
-cd Subscription-Tracker
-
-Install dependencies:
-
+# Install dependencies
 npm install
 
-Environment Variables
-
-Create a .env file and add the following:
-
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-SERVER_URL=http://localhost:8080
-
-Running the Server
-
-To start the backend server, run:
-
+# Start the server
 npm start
+```
 
-The server will run on http://localhost:8080/
+## 🔗 **API Endpoints**
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/api/v1/subscription/create` | Create a new subscription |
+| `GET` | `/api/v1/subscription/:id` | Get user subscriptions |
+| `DELETE` | `/api/v1/subscription/:id` | Delete a subscription |
 
-API Routes
+## 🚀 **Deployment**
+You can deploy this project using **Render, Railway, or Vercel** for backend hosting.
 
-Method
+## 🛡️ **Security & Best Practices**
+🔹 **Keep your `.env` file private**  
+🔹 **Do not hardcode credentials**  
+🔹 **Use environment variables**  
 
-Endpoint
+## 📝 **License**
+This project is **private** and not open for public downloads.
 
-Description
+---
+💡 *For any queries, feel free to reach out!* 😊
 
-POST
-
-/api/v1/subscription/create
-
-Create a new subscription
-
-GET
-
-/api/v1/subscription/:id
-
-Get user subscriptions
-
-DELETE
-
-/api/v1/subscription/:id
-
-Delete a subscription
-
-Security Considerations
-
-🚨 Sensitive Information 🚨
-
-The project contains MongoDB connection credentials. Do NOT push .env files to GitHub.
-
-Make sure your repo is private if credentials are exposed.
-
-Use .gitignore to exclude sensitive files.
-
-Contributing
-
-If you want to improve this project, fork the repository and create a pull request.
-
-License
-
-This project is for learning purposes only and is not meant for public use.
-
-✨ Created by Ganesh Ram
