@@ -1,7 +1,4 @@
 # 🚀 **Subscription Tracker**
-
-![Subscription Tracker](https://via.placeholder.com/800x400.png?text=Subscription+Tracker+App)
-
 ## 📌 **Project Overview**
 Subscription Tracker is a **backend-only** Node.js project that helps users efficiently manage their subscriptions. It includes features like secure authentication, bot protection, and automated reminders.
 
@@ -11,6 +8,7 @@ Subscription Tracker is a **backend-only** Node.js project that helps users effi
 ✅ Auto-reminders for upcoming subscriptions ⏰  
 ✅ RESTful API with Express.js 🛠️  
 ✅ MongoDB database integration 📂  
+
 
 ## 🚧 **Tech Stack**
 - **Backend:** Node.js, Express.js
@@ -26,12 +24,7 @@ Subscription Tracker is a **backend-only** Node.js project that helps users effi
 - **Deploy securely using environment variables** 🔐  
 
 ## 📸 **Screenshots**
-### API Workflow Diagram 📊
-![API Workflow](https://via.placeholder.com/600x300.png?text=API+Workflow)
-
-### Subscription API Request Example 📝
-![Postman API](https://via.placeholder.com/600x300.png?text=Postman+Request)
-
+![Screenshot 2025-03-26 135839](https://github.com/user-attachments/assets/c195947c-9767-4ef5-9221-fb055bd6d8fa)
 ## 🛠️ **Setup & Installation**
 ```sh
 # Clone the repository
